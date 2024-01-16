@@ -1,0 +1,62 @@
+#home{
+    min-height :calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url(/src/ui/backgroundcover.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+.bg{
+    background-color: palevioletred;
+    position: absolute;
+    height: 100%;
+    width: 79%;
+    transform: rotate(-15deg);
+    left: 74%;
+    top: -50;
+}
+
+.homecontent{
+    height: 100vh;
+    width: 100vw;
+    max-width: 1200px;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    color: black;
+    font-size: 2rem;
+    font-weight: 5rem;
+}
+.name{
+    color: palevioletred;
+}
+.intro{
+    color: black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    color: black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introdescription{
+    color: black;
+    font-size: 20px;
+    font-weight: 50px;
+    letter-spacing: 1px;
+}

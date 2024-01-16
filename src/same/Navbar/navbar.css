@@ -1,0 +1,57 @@
+.navbar{
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 3;
+    position: sticky;
+    background-color: black;
+}
+.NavbarMenuList{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.NavbarMenuList:hover{
+    color: palevioletred;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid palevioletred;
+}
+
+.logo{
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    padding: 20px;
+}
+
+.portfolio{
+    font-size: x-large;
+    font-weight: 700;
+    color: palevioletred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}

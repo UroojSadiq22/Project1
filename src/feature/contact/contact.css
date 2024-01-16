@@ -1,0 +1,104 @@
+#contact{
+    
+        margin: 0 auto;
+        min-height: calc(100vh - 5rem);
+        width: 100vw;
+        max-width: 60rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 1rem;
+    
+}
+
+.title-section{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    letter-spacing: 10px;
+    font-size: medium;
+    color: palevioletred;
+}
+.text-sm-center{
+    text-align: center;
+}
+.title-bg{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: translateY(-50%);
+    color: hsla(0, 0%, 100%, 0.07)
+}
+
+.Name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(70, 67, 67);
+
+}
+
+.form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.submitbtn{
+    background: rgb(216, 142, 167);
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.75rem 3.5rem;
+}
+.submitbtn:hover{
+    cursor: pointer;
+    color: palevioletred;
+    text-shadow: 5rem;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: transform 0.5s;
+    bottom: 5rem;
+}
+
+.socialicon{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+
+.socialicons :hover{
+    cursor: pointer;
+    color: palevioletred;
+    transform: translateY(-5px);
+}
+
+.socialdes{
+    color: rgb(247, 182, 204);
+    padding: 10px;
+    margin: 1px;
+}

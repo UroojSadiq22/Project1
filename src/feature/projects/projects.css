@@ -1,0 +1,115 @@
+#projects{
+    margin: 0 auto;
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.title-section{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    letter-spacing: 10px;
+    font-size: medium;
+    color: palevioletred;
+}
+.text-sm-center{
+    text-align: center;
+}
+.title-bg{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: translateY(-50%);
+    color: hsla(0, 0%, 100%, 0.07)
+}
+.bg{
+    background-color: palevioletred;
+    position: absolute;
+    height: 100%;
+    width: 29%;
+    transform: rotate(-97deg);
+    left: 88%;
+    top: -50;
+}
+
+.projectimgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    border-radius: 2rem;
+    margin-top: 50px;
+}
+
+
+.projectimg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+.imgwrapper:hover .blur{
+    filter: blur(5px);
+
+}
+
+.imgwrapper{
+    
+    position: relative;
+    overflow: hidden;
+}
+.imgwrapper:hover .imagecontent.fade{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.imagecontent{
+    
+    color: black;
+    font-size: 2rem;
+    position: absolute;;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: palevioletred;
+    transition: 200ms ease-in-out;
+    visibility: hidden;
+    height: 20rem;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.imagecontent.fade{
+    
+    opacity: 0;
+}
+
+.NavbarMenuList{
+    margin: 15px;
+    cursor: pointer;
+    padding:  auto;
+}
+
+.NavbarMenuList:hover{
+    color: palevioletred;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid palevioletred;
+}
+
